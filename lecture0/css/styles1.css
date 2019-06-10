@@ -1,0 +1,21 @@
+
+
+div{
+  background-color: teal;
+  width: 500px;
+  height: 400px;
+  margin: 36px;
+  padding: 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+table{width:100% border: 2px solid black}
+
+table.center{margin-left: auto; margin-right: auto;}
+
+th, td{border: 1px solid black padding:5px}
+
+th{background-color: lightgray}
