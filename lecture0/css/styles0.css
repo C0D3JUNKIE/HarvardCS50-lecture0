@@ -1,6 +1,21 @@
 
 h1{color:blue; text-align:center;}
 
-p{color:red;}
+p{color:darkgrey;}
+
+p::selection{color:white; background-color: gray;}
 
 li, ol{color:green}
+
+
+@media(min-width: 500px){
+    h1::before{
+      content: "";
+      }
+}
+
+@media(max-width: 499px){
+      h1:before{
+        content: "";
+      }
+}
